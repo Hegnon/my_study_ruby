@@ -18,4 +18,3 @@ if resultado != -1
 else
     puts "Não foi encontrado o numero #{pesquisar} na lista"
 end
-    
