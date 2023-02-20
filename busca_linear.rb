@@ -9,7 +9,7 @@ def busca_linear(lista, pesquisar)
 end
 
 lista = 1,2,3,4,5,6,7,8,9
-pesquisar = 10
+pesquisar = 9
 
 resultado = busca_linear(lista, pesquisar)
 
