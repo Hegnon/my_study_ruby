@@ -1,3 +1,8 @@
+puts "Qual seu nome e sobrenome"
+nome = gets.chomp.strip
+sobrenome = gets.chomp.strip
+
+
 puts "digite a média 1:"
 nota1 = gets.to_f
 puts "digite a média 2:"
@@ -9,7 +14,7 @@ nota4 = gets.to_f
 
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
-puts "Sua média é #{media}" 
+puts "#{nome} #{sobrenome}, Sua média é #{media}" 
 
 if media >= 8
     puts "você foi aprovado"
