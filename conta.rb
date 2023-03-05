@@ -1,14 +1,15 @@
 class Conta
     #get
-    attr_reader :local, :titular, :placa
+    attr_reader :codigo, :titular, :local
     #set
-    attr_writer :placa
+    attr_accessor :placa
 
     #Argumentos
-    def initialize(local, titular, placa)
+    def initialize(codigo, titular, local, placa)
         #Inicialização da variavel.
-        @local = local
+        @codigo = codigo
         @titular = titular
+        @local = local
         @placa = placa        
     end
 end
