@@ -1,3 +1,5 @@
+require_relative 'conta2_nome'
+
 class Conta2
     attr_reader :numero, :titular
 
