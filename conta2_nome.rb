@@ -1,3 +1,5 @@
+#calsse para cadastrar nome do cliente
+
 class Cliente
 
     attr_accessor :nome, :sobrenome

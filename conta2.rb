@@ -1,3 +1,6 @@
+#define alguns metodos para a conta no geral
+
+
 require_relative 'conta2_nome'
 
 class Conta2
