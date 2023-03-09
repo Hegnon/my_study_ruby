@@ -1,4 +1,32 @@
-for i in 1..6 do
+def inicio()
+    contador = 0
+    limite =10
+    tabuada = gets.to_i
+    puts "Qual falor quer que eu resolva?"
+
+    do
+        resultado = tabuada * contador
+        puts "#{tabuada} x #{contador} = #{resultado}"
+        Contador +1
+    
+    end
+
+    while (contador <= resultado)
+end
+
+
+
+
+
+
+
+
+
+
+
+=begin
+
+for i in 1..8 do
     puts "tabuada do #{i}"
     for j in 1..10 do
         resultado = i * j
